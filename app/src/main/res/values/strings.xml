@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">PermissionsExKotlin</string>
+    <string name="request_camera_permission">Request Camera Permission</string>
 </resources>

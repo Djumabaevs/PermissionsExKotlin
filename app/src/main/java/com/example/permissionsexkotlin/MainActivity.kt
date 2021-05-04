@@ -8,4 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    companion object {
+        private  const val CAMERA_PERMISSION_CODE = 1
+        //  private const val FIND_LOCATION_PERMISSION_CODE = 2
+    }
 }
