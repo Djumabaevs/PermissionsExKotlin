@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
             } else {
                 //Request permission
                 ActivityCompat.requestPermissions(this,
-                    arrayOf(Manifest.permission.CAMERA), CAMERA_PERMISSION_CODE)
+                    arrayOf(Manifest.permission.CAMERA, Manifest.permission.ACCESS_FINE_LOCATION), CAMERA_PERMISSION_CODE)
             }
         }
     }
@@ -47,6 +47,7 @@ class MainActivity : AppCompatActivity() {
 
     companion object {
         private  const val CAMERA_PERMISSION_CODE = 1
-        //  private const val FIND_LOCATION_PERMISSION_CODE = 2
+        private const val FIND_LOCATION_PERMISSION_CODE = 2
+        private const val CAMERA_AND_FINE_LOCATION_PERMISSION_CODE = 12
     }
 }
